@@ -1,0 +1,25 @@
+/*  The * below is used as a universal selector, so it creates default settings for your site */
+* {
+    font-size: 12pt;
+    line-height: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* font-face is used to use your own custom, non-systems fonts. place file in resources folder, same has this index.css file*/
+@font-face {
+    font-family: "";
+    src: url(./);
+}
+
+/* how you want the structure of your submissions to appear below. display: grid; and display: flex; are good places to start */
+.grid {
+
+}
+
+/* how do you want each individual submission to appear? do they have a border: 1px black solid; etc. a different font-family, font-size or color? */
+.grid div {
+
+}
+
+/* some other things you should consider for css styling are: 
+html, <h1>, <p>, <div>, .classes, #IDs, img, a */
